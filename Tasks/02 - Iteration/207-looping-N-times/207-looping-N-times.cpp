@@ -3,11 +3,10 @@
 int main()
 {
     //Counter variable
-    int i;
-
+    
 
     //For loop (pre-C99 standard)
-    for (i = 0; i < 5; i++)
+    for (int i = -10; i < 21; i = i + 5)
     {
         //Perform code tasks
         printf("i=%d\n", i);
@@ -22,9 +21,9 @@ int main()
     // TASK D - count from -10 down to 20 in steps of 5
 
     // TASK E - can you predict the largest value of i that is displayed?
-    for (i = 0; i < 12; i += 3)
-    {
+    //for (i = 0; i < 12; i += 3)
+    //{
         //Perform code tasks
-        printf("i=%d\n", i);
-    }
+       // printf("i=%d\n", i);
+    //}
 }
